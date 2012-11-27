@@ -1,0 +1,56 @@
+syntax enable
+filetype plugin indent on
+"set list
+"set listchars=tab:\―\ ,eol:$
+set listchars=tab:>.,eol:$
+"set listchars=tab:\⋮\⋅,eol:$
+
+set nocompatible
+set autoindent
+set cindent
+set number
+set ruler
+set showcmd
+set showmode
+set scrolloff=4
+set tabstop=4
+set shiftwidth=4
+set title
+set visualbell
+set noerrorbells
+set mousehide
+set wildmenu
+set wildmode=list:longest,full
+
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+
+set encoding=utf-8
+set laststatus=2
+set cmdheight=2
+set statusline=%f%m%r%h%w\ [e:%{&enc}/fe:%{&fenc}/ff:%{&ff}\]%y%=%3l,%3c\ [%2p%%]
+set background=dark
+
+if &term == "linux"
+	colorscheme miro8
+else
+	set t_Co=256
+	colorscheme mustang
+endif
+
+autocmd! bufreadpost * call LastPosition()
+function! LastPosition()
+	if line("'\"") && line("'\"")<=line('$')
+		normal! `"
+	endif
+endfunction
+
+au BufWritePost * if getline(1) =~ "^#!.*/bin/"|silent !chmod u+x %|endif
+
+"function! HiTabs()
+"	syntax match TAB /\t/
+"	hi TAB ctermbg=blue ctermfg=red
+"endfunction
+"au BufEnter,BufRead * call HiTabs()

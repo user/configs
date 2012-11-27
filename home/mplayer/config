@@ -1,0 +1,25 @@
+#audio
+channels=2
+alang=en,eng,english
+ao=pulse
+
+#video
+vo=xv
+monitoraspect=16:9
+vf-add=expand=::::1:16/9:16 # nice hack for subs
+
+#subs
+slang=ru,rus,russian
+subcp=utf8
+font="Droid Sans"
+unicode=yes
+utf8=yes
+subfont-text-scale=3
+
+
+lavdopts=threads=4
+
+[6chto2ch]
+af-add=pan=2:0.7:0:0:0.7:0.5:0:0:0.5:0.6:0.6:0:0
+
+stop-xscreensaver=1 

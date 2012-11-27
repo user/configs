@@ -1,0 +1,15 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/usr/share/themes/Zukitwo-Dark/gtk-2.0/gtkrc"
+
+style "user-font" {
+	font_name = "Droid Sans 10"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="Droid Sans 10"
+gtk-icon-theme-name = "Faenza-Cupertino"
+
+include "/home/ivs/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT

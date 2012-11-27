@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+#
+WALLPAPERS=$HOME/pictures/wallpapers/
+
+xrdb -merge $HOME/.Xresources
+numlockx &
+unclutter -visible -noevents &
+
+case "$1" in
+	g)
+		exec gnome-session ;;
+	*)
+		feh --bg-fill $WALLPAPERS/origin_Hd-wallpapers-89.jpg
+		$HOME/system/sh/compton.sh
+		dstatus &
+		exec dwm ;;
+esac
