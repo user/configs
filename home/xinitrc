@@ -15,7 +15,7 @@ case "$1" in
 		exec gnome-session ;;
 	*)
 		feh --bg-fill $WALLPAPERS/origin_Hd-wallpapers-89.jpg
-		$HOME/system/sh/compton.sh
+		compton &
 		dstatus &
 		exec dwm ;;
 esac
