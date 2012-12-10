@@ -48,9 +48,3 @@ function! LastPosition()
 endfunction
 
 au BufWritePost * if getline(1) =~ "^#!.*/bin/"|silent !chmod u+x %|endif
-
-"function! HiTabs()
-"	syntax match TAB /\t/
-"	hi TAB ctermbg=blue ctermfg=red
-"endfunction
-"au BufEnter,BufRead * call HiTabs()
