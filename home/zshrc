@@ -25,7 +25,7 @@ promptinit
 
 printf "\e[1;34m$(date "+%d/%m/%Y %T")" 
 printf "\e[0;34m | \e[1;34m$(uptime | awk '{ print $3 }' | sed s/,//)"
-printf "\e[0;34m |\e[1;34m$(uptime | sed 's/.*://; s/,//g')\n"
+printf "\e[0;34m | \e[1;34m$(cut -d " " -f 1-3 /proc/loadavg)\n"
 
 PROMPT=" %B%F{blue}%#%f%b "
 PROMPT2="  > "
