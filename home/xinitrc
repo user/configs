@@ -1,21 +1,30 @@
 #!/bin/sh
 #
-# ~/.xinitrc
-#
-# Executed by startx (run your window manager from here)
-#
-WALLPAPERS=$HOME/pictures/wallpapers/
 
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+  for f in /etc/X11/xinit/xinitrc.d/*; do
+    [ -x "$f" ] && . "$f"
+  done
+  unset f
+fi
+
+# update x resources db
 xrdb -merge $HOME/.Xresources
-numlockx &
-unclutter -visible -noevents &
 
-case "$1" in
-	g)
-		exec gnome-session ;;
-	*)
-		feh --bg-fill $WALLPAPERS/origin_Hd-wallpapers-89.jpg
-		compton &
-		dstatus &
-		exec dwm ;;
-esac
+# set wallpaper
+sh $HOME/.fehbg &
+
+# numlock on
+/usr/bin/numlockx &
+
+# hide mouse cursor
+/usr/bin/unclutter -visible -noevents &
+
+# compositing
+/usr/bin/compton &
+
+# date/time
+#/usr/local/bin/dss &
+
+exec dwm 
+
