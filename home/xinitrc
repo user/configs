@@ -24,7 +24,7 @@ sh $HOME/.fehbg &
 /usr/bin/compton &
 
 # date/time
-#/usr/local/bin/dss &
+/usr/local/bin/dss &
 
 exec dwm 
 
