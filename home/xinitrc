@@ -26,5 +26,6 @@ sh $HOME/.fehbg &
 # date/time
 /usr/local/bin/dss &
 
+# start dwm
 exec dwm 
 
