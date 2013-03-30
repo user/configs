@@ -1,9 +1,10 @@
 syntax enable
+filetype off
 filetype plugin indent on
-"set list
-"set listchars=tab:\―\ ,eol:$
-set listchars=tab:>.,eol:$
-"set listchars=tab:\⋮\⋅,eol:$
+
+set list
+"set listchars=tab:>.,eol:$
+set listchars=tab:╺╴,eol:¬,trail:·,extends:→,precedes:←
 
 set nocompatible
 set autoindent
@@ -30,7 +31,7 @@ set smartcase
 set encoding=utf-8
 set laststatus=2
 set cmdheight=2
-set statusline=%f%m%r%h%w\ [e:%{&enc}/fe:%{&fenc}/ff:%{&ff}\]%y%=%3l,%3c\ [%2p%%]
+set statusline=%f%m%r%h%w\ [%{&fenc}][%{&ff}\]%y%=%3l,%3c\ [%2p%%]
 set background=dark
 
 if &term == "linux"
@@ -48,3 +49,15 @@ function! LastPosition()
 endfunction
 
 au BufWritePost * if getline(1) =~ "^#!.*/bin/"|silent !chmod u+x %|endif
+
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Vundle
+Bundle 'gmarik/vundle'
+
+"
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'zeis/vim-kolor'
+
