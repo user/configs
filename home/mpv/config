@@ -1,0 +1,41 @@
+# vim: set ft=mplayerconf:
+#
+# video
+vo=vdpau,xv
+hwdec=vdpau
+monitoraspect=16:9
+vf-add=expand=::::16/9:
+
+# audio
+ao=pulse
+alang=en,eng,english
+af-set=pan=2:1:0:0:1:1:0:0:1:0.5:0.5:0.5:0.5
+#af=force=channels=2
+#channels=2
+#af-set=drc=2:0.25
+
+# subs
+slang=ru,rus,russian
+subcp=utf8
+sub-text-font="Droid Serif"
+sub-text-font-size=32
+
+
+# osd
+osd-bar-align-x=0
+osd-bar-align-y=1
+osd-bar-w=96
+osd-bar-h=2
+osd-font="Droid Sans"
+osd-font-size=32
+
+
+# other
+loop=inf
+screenshot-format=jpg
+
+
+# Pretend to be Winamp
+# Fixes playback of some NSV streams
+user-agent="Winamp NSV Player/5.12 (ultravox/2.0)"
+
