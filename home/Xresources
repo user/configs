@@ -1,3 +1,5 @@
+! vim:ft=xdefaults
+
 Xcursor.theme:  FlatbedCursors.White.Small
 Xft.dpi:        96 
 Xft.antialias:  true 
@@ -11,13 +13,9 @@ URxvt*scrollBar_right: false
 URxvt*scrollBar: false
 URxvt*borderLess: false
 
-URxvt.font:xft:lemon:size=10
-URxvt.boldFont:xft:lemon:size=10
+URxvt.font: -*-uushi-medium-r-normal-*-11-*-*-*-*-*-*-*
+URxvt.boldFont: -*-ohsnap.icons-medium-r-normal-*-11-*-*-*-*-*-*-*
 
-!URxvt.font:xft:ubuntu mono:size=11
-!URxvt.boldFont:xft:ubuntu mono:size=11
-
-! special
 urxvt.foreground:   #ebebeb
 urxvt.background:   #000211
 urxvt.borderColor:  #000211
@@ -55,4 +53,3 @@ urxvt.color14:      #942ea0
 urxvt.color7:       #505d73
 urxvt.color15:      #445573
 
-! vim:ft=xdefaults
