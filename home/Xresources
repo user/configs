@@ -14,42 +14,41 @@ URxvt*scrollBar: false
 URxvt*borderLess: false
 
 URxvt.font: -*-uushi-medium-r-normal-*-11-*-*-*-*-*-*-*
-URxvt.boldFont: -*-ohsnap.icons-medium-r-normal-*-11-*-*-*-*-*-*-*
+URxvt.boldFont: -*-uushi-medium-r-normal-*-11-*-*-*-*-*-*-*
 
-urxvt.foreground:   #ebebeb
-urxvt.background:   #000211
-urxvt.borderColor:  #000211
-urxvt.cursorColor:  #c6c6c6
+urxvt.foreground:   #f6f6f6
+urxvt.background:   #303030
+urxvt.cursorColor:  #cccccc
 
 ! black
-urxvt.color0:       #0f121f
-urxvt.color8:       #282a3b
+urxvt.color0:       #2E3436
+urxvt.color8:       #888A85
 
 ! red
-urxvt.color1:       #bb0454
-urxvt.color9:       #cd236d
+urxvt.color1:       #CC0000
+urxvt.color9:       #EF2929
 
 ! green
-urxvt.color2:       #32b792
-urxvt.color10:      #77bb99
+urxvt.color2:       #73D216
+urxvt.color10:      #8AE234
 
 ! yellow
-urxvt.color3:       #c8ab45
-urxvt.color11:      #c7c575
+urxvt.color3:       #EDD400
+urxvt.color11:      #FCE94F
 
 ! blue
-urxvt.color4:       #15547b
-urxvt.color12:      #3a6884
+urxvt.color4:       #3465A4
+urxvt.color12:      #729FCF
 
 ! magenta
-urxvt.color5:       #910957
-urxvt.color13:      #a93678
+urxvt.color5:       #75507B
+urxvt.color13:      #AD7FA8
 
 ! cyan
-urxvt.color6:       #6c0079
-urxvt.color14:      #942ea0
+urxvt.color6:       #00cdcd
+urxvt.color14:      #00E5E5
 
 ! white
-urxvt.color7:       #505d73
-urxvt.color15:      #445573
+urxvt.color7:       #e5e5e5
+urxvt.color15:      #FFFFFF
 
