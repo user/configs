@@ -1,17 +1,25 @@
+export PATH="/bin/:/sbin/:/usr/bin:/usr/sbin/:/usr/local/bin:/usr/local/sbin"
+export LANG="en_US.UTF-8"
+export LC_COLLATE="C"
+export LC_TIME="en_DK.UTF-8"
+export LC_ALL=
+
 export EDITOR=vim
-export PAGER=vimpager
-export VISUAL=$EDITOR
+#export LIBVA_DRIVER_NAME=vdpau
+#export VDPAU_DRIVER=r600
+export GREP_COLOR='1;33'
+
 
 zstyle ':completion:*' _complete _ignored _approximate
 HISTFILE=~/.histfile
-HISTSIZE=512
-SAVEHIST=1024
+HISTSIZE=10240
+SAVEHIST=10240
 setopt APPEND_HISTORY
 setopt CORRECT
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_IGNORE_SPACE
-setopt HIST_REDUCE_BLANKS
-setopt INC_APPEND_HISTORY
+#setopt HIST_IGNORE_ALL_DUPS
+#setopt HIST_IGNORE_SPACE
+#setopt HIST_REDUCE_BLANKS
+#setopt INC_APPEND_HISTORY
 
 bindkey -e
 eval "$(sed -n 's/^/bindkey /; s/: / /p' /etc/inputrc)"
@@ -32,3 +40,5 @@ PROMPT2="  > "
 RPROMPT="%B%F{blue}[%~]%f%b"
 
 [[ -f ~/.aliases ]] && . ~/.aliases
+[[ -f ~/.zfunc ]] && . ~/.zfunc
+
