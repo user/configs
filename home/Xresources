@@ -9,16 +9,13 @@ Xft.rgba:       rgb
 Xft.lcdfilter:  lcddefault
 
 ! Urxvt
-URxvt*scrollBar_right: false
 URxvt*scrollBar: false
-URxvt*borderLess: false
 
-URxvt.font: -*-uushi-medium-r-normal-*-11-*-*-*-*-*-*-*
-URxvt.boldFont: -*-uushi-medium-r-normal-*-11-*-*-*-*-*-*-*
+URxvt.font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 
 urxvt.foreground:   #f6f6f6
 urxvt.background:   #303030
-urxvt.cursorColor:  #cccccc
 
 ! black
 urxvt.color0:       #2E3436
