@@ -1,4 +1,5 @@
-include "/usr/share/themes/Zukitwo/gtk-2.0/gtkrc"
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/home/ivs/.themes/MediterraneanNight/gtk-2.0/gtkrc"
 
 style "user-font" {
 	font_name = "Droid Sans 10"
@@ -7,6 +8,7 @@ style "user-font" {
 widget_class "*" style "user-font"
 
 gtk-font-name="Droid Sans 10"
-gtk-icon-theme-name = "Faenza-Cupertino"
 
 include "/home/ivs/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
