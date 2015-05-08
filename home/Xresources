@@ -1,6 +1,6 @@
 ! vim:ft=xdefaults
 
-Xcursor.theme:  FlatbedCursors.White.Small
+Xcursor.theme:  pixelfun
 Xft.dpi:        96 
 Xft.antialias:  true 
 Xft.hinting:    true 
