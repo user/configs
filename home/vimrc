@@ -2,13 +2,13 @@ syntax enable
 filetype off
 filetype plugin indent on
 
-set list
+"set list
 "set listchars=tab:>.,eol:$
 set listchars=tab:╺╴,eol:¬,trail:·,extends:→,precedes:←
 
 set nocompatible
-set autoindent
-set cindent
+"set autoindent
+"set cindent
 set number
 set ruler
 set showcmd
@@ -20,6 +20,7 @@ set title
 set visualbell
 set noerrorbells
 set mousehide
+set mouse=c
 set wildmenu
 set wildmode=list:longest,full
 
@@ -38,8 +39,11 @@ if &term == "linux"
 	colorscheme miro8
 else
 	set t_Co=256
-	colorscheme mustang
+	colorscheme mirodark
 endif
+
+nmap <leader>l :set list!
+
 
 autocmd! bufreadpost * call LastPosition()
 function! LastPosition()
@@ -60,4 +64,11 @@ Bundle 'gmarik/vundle'
 "
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'zeis/vim-kolor'
+
+if &term =~ '256color'
+    " disable Background Color Erase (BCE) so that color schemes
+    " render properly when inside 256-color tmux and GNU screen.
+    " see also http://sunaku.github.io/vim-256color-bce.html
+    set t_ut=
+endif
 
