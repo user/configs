@@ -10,6 +10,7 @@ Xft.lcdfilter:  lcddefault
 
 ! Urxvt
 URxvt*scrollBar: false
+URxvt.geometry: 130x30
 
 URxvt.font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
 URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
