@@ -10,7 +10,7 @@ Xft.lcdfilter:  lcddefault
 
 ! Urxvt
 URxvt*scrollBar: false
-URxvt.geometry: 130x30
+URxvt.geometry: 120x50
 
 URxvt.font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
 URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
@@ -19,34 +19,50 @@ urxvt.foreground:   #f6f6f6
 urxvt.background:   #303030
 
 ! black
-urxvt.color0:       #2E3436
-urxvt.color8:       #888A85
+!urxvt.color0:       #2E3436
+!urxvt.color8:       #888A85
 
 ! red
-urxvt.color1:       #CC0000
-urxvt.color9:       #EF2929
+!urxvt.color1:       #CC0000
+!urxvt.color9:       #EF2929
 
 ! green
-urxvt.color2:       #73D216
-urxvt.color10:      #8AE234
+!urxvt.color2:       #73D216
+!urxvt.color10:      #8AE234
 
 ! yellow
-urxvt.color3:       #EDD400
-urxvt.color11:      #FCE94F
+!urxvt.color3:       #EDD400
+!urxvt.color11:      #FCE94F
 
 ! blue
-urxvt.color4:       #3465A4
-urxvt.color12:      #729FCF
+!urxvt.color4:       #3465A4
+!urxvt.color12:      #729FCF
 
 ! magenta
-urxvt.color5:       #75507B
-urxvt.color13:      #AD7FA8
+!urxvt.color5:       #75507B
+!urxvt.color13:      #AD7FA8
 
 ! cyan
-urxvt.color6:       #00cdcd
-urxvt.color14:      #00E5E5
+!urxvt.color6:       #00cdcd
+!urxvt.color14:      #00E5E5
 
 ! white
-urxvt.color7:       #e5e5e5
-urxvt.color15:      #FFFFFF
+!urxvt.color7:       #e5e5e5
+!urxvt.color15:      #FFFFFF
 
+*color0: #2c2836
+*color8: #73707e
+*color1: #bb7473
+*color9: #cf9fa4
+*color2: #68b782
+*color10: #9acbad
+*color3: #abb773
+*color11: #c5cba4
+*color4: #7865c5
+*color12: #a396d9
+*color5: #bb65b6
+*color13: #cf96cf
+*color6: #68a8c5
+*color14: #9ac1d9
+*color7: #e3dfed
+*color15: #f1edfb
