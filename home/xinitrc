@@ -20,7 +20,7 @@ sh $HOME/.fehbg &
 # date/time
 /usr/local/bin/dss &
 
-aplay ~/sys/snd/psone.wav &
+#aplay ~/sys/snd/psone.wav &
 
 # start dwm
 exec /usr/local/bin/dwm
