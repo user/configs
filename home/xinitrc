@@ -12,7 +12,7 @@ sh $HOME/.fehbg &
 #/usr/bin/numlockx &
 
 # hide mouse cursor
-/usr/bin/unclutter -visible -noevents &
+#/usr/bin/unclutter -visible -noevents &
 
 # compositing
 /usr/bin/compton &
