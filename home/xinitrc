@@ -15,7 +15,7 @@ sh $HOME/.fehbg &
 #/usr/bin/unclutter -visible -noevents &
 
 # compositing
-#/usr/bin/compton &
+/usr/bin/compton &
 
 # date/time
 /usr/local/bin/dss &
