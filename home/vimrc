@@ -63,7 +63,7 @@ Bundle 'gmarik/vundle'
 
 "
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'zeis/vim-kolor'
+"Bundle 'zeis/vim-kolor'
 
 if &term =~ '256color'
     " disable Background Color Erase (BCE) so that color schemes
