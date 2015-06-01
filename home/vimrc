@@ -62,7 +62,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 "
-Bundle 'Lokaltog/vim-powerline'
+"Bundle 'Lokaltog/vim-powerline'
 "Bundle 'zeis/vim-kolor'
 
 if &term =~ '256color'
