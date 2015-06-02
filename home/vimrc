@@ -59,7 +59,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " Vundle
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 
 "
 "Bundle 'Lokaltog/vim-powerline'
