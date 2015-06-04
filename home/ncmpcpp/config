@@ -1,80 +1,28 @@
-##### connection settings #####
 mpd_host = localhost
 mpd_port = 6600
 
-## Needed for tag editor and file operations to work.
-##
 mpd_music_dir = ~/music
 
-##### music visualizer #####
 visualizer_fifo_path =      "/tmp/mpd.fifo"
 visualizer_output_name =    "my_fifo"
 visualizer_sync_interval =  "30" 
 visualizer_in_stereo =      "yes"
-#visualizer_type =           "wave" (spectrum/wave)
-visualizer_type =            "spectrum" (spectrum/wave)
+visualizer_type =           "spectrum" (spectrum/wave)
+visualizer_look =           "++"
 
-##### song format #####
-##
-## for song format you can use:
-##
-## %l - length
-## %f - filename
-## %D - directory
-## %a - artist
-## %A - album artist
-## %t - title
-## %b - album
-## %y - date
-## %n - track number (01/12 -> 01)
-## %N - full track info (01/12 -> 01/12)
-## %g - genre
-## %c - composer
-## %p - performer
-## %d - disc
-## %C - comment
-## %P - priority
-## $R - begin right alignment
-##
-## you can also put them in { } and then it will be displayed
-## only if all requested values are available and/or define alternate
-## value with { }|{ } eg. {%a - %t}|{%f}
-##
-## Note: If you want to set limit on maximal length of a tag, just
-## put the appropriate number between % and character that defines
-## tag type, e.g. to make album take max. 20 terminal cells, use '%20b'.
-##
-## Note: Format that is similar to "%a - %t" (i.e. without any additional
-## braces) is equal to "{%a - %t}", so if one of the tags is missing,
-## you'll get nothing.
-##
-## text can also have different color than the main window has,
-## eg. if you want length to be green, write "$3%l$9".
-##
-## Available values:
-##
-## - 0 - default window color (discards all other colors)
-## - 1 - black
-## - 2 - red
-## - 3 - green
-## - 4 - yellow
-## - 5 - blue
-## - 6 - magenta
-## - 7 - cyan
-## - 8 - white
-## - 9 - end of current color
-##
-## Note: colors can be nested.
-##
+song_list_format = {%t %a %b}
 #
-#song_list_format = {%a - }{%t}|{$8%f$9}$R{$3(%l)$9}
-#
-#song_status_format = {{%a{ "%b"{ (%y)}} - }{%t}}|{%f}
+song_status_format = "%t from %b by %a"
 #
 #song_library_format = {%n - }{%t}|{%f}
 #
 #tag_editor_album_format = {(%y) }%b
 #
+
+header_visibility = no
+song_window_title_format = "%t by %a"
+statusbar_visibility = no
+
 ##
 ## Note: Below variables are used for sorting songs in browser.
 ## The sort mode determines how songs are sorted, and can be used
@@ -126,7 +74,6 @@ visualizer_type =            "spectrum" (spectrum/wave)
 #
 ## Note: colors are not supported for below variable.
 ##
-#song_window_title_format = {%a - }{%t}|{%f}
 #
 ##### columns settings #####
 ##
@@ -186,7 +133,7 @@ visualizer_type =            "spectrum" (spectrum/wave)
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-#playlist_display_mode = columns
+playlist_display_mode = classic
 #
 #browser_display_mode = classic
 #
@@ -238,9 +185,7 @@ visualizer_type =            "spectrum" (spectrum/wave)
 #
 #default_tag_editor_pattern = %n - %t
 #
-#header_visibility = yes
 #
-#statusbar_visibility = yes
 #
 #titles_visibility = yes
 #
@@ -340,32 +285,6 @@ visualizer_type =            "spectrum" (spectrum/wave)
 #media_library_sort_by_mtime = no
 #
 #enable_window_title = yes
-#
-##
-## Note: You can choose default search mode for search
-## engine. Available modes are:
-##
-## - 1 - use mpd built-in searching (no regexes, pattern matching)
-## - 2 - use ncmpcpp searching (pattern matching with support for regexes,
-##       but if your mpd is on a remote machine, downloading big database
-##       to process it can take a while
-## - 3 - match only exact values (this mode uses mpd function for searching
-##       in database and local one for searching in current playlist)
-##
-#
-#search_engine_default_search_mode = 1
-#
-#external_editor = nano
-#
-## Note: set to yes if external editor is a console application.
-##
-#use_console_editor = yes
-#
-##### colors definitions #####
-#
-#colors_enabled = yes
-#
-#empty_tag_color = cyan
 #
 #header_window_color = default
 #
