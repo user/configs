@@ -12,9 +12,9 @@ visualizer_look =           "++"
 
 song_list_format = {%t %a %b}
 song_status_format = "%t from %b by %a"
-
 autocenter_mode = yes
 centered_cursor = no
+playlist_display_mode = columns
 
 header_visibility = no
 song_window_title_format = "%t by %a"
@@ -58,7 +58,7 @@ progressbar_boldness = yes
 ##   not available.
 ##
 #
-#song_columns_list_format = (20)[]{a} (6f)[green]{NE} (50)[white]{t|f:Title} (20)[cyan]{b} (7f)[magenta]{l}
+song_columns_list_format = (32)[]{t} (24)[]{a} (32)[cyan]{b} (7f)[]{l}
 #
 ##### various settings #####
 #
@@ -80,7 +80,6 @@ progressbar_boldness = yes
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-playlist_display_mode = classic
 #
 #browser_display_mode = classic
 #
