@@ -58,7 +58,7 @@ progressbar_boldness = yes
 ##   not available.
 ##
 #
-song_columns_list_format = (32)[]{t} (24)[]{a} (32)[]{b} (7f)[]{l}
+song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[]{l}
 
 
 
@@ -66,24 +66,8 @@ song_columns_list_format = (32)[]{t} (24)[]{a} (32)[]{b} (7f)[]{l}
 ## media_library, playlist_editor, tag_editor, outputs, visualizer, clock.
 ##
 startup_screen = playlist
-
-
 ignore_leading_the = yes
-#
-#block_search_constraints_change_if_items_found = yes
-#
-#mouse_support = yes
-#
-#mouse_list_scroll_whole_page = yes
-#
-#empty_tag_marker = <empty>
-#
-#tags_separator = " | "
-#
-#tag_editor_extended_numeration = no
-#
-#media_library_sort_by_mtime = no
-#
+
 #enable_window_title = yes
 #
 #header_window_color = default
