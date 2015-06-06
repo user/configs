@@ -8,7 +8,7 @@ visualizer_output_name =    "my_fifo"
 visualizer_sync_interval =  "30" 
 visualizer_in_stereo =      "yes"
 visualizer_type =           "spectrum" (spectrum/wave)
-visualizer_look =           "++"
+visualizer_look =           ":."
 
 song_list_format = {%t %a %b}
 song_status_format = "%t from %b by %a"
@@ -19,7 +19,7 @@ playlist_display_mode = columns
 header_visibility = no
 song_window_title_format = "%t by %a"
 statusbar_visibility = no
-progressbar_look = ::-
+progressbar_look = ::.
 progressbar_boldness = yes
 
 ##### columns settings #####
@@ -58,50 +58,10 @@ progressbar_boldness = yes
 ##   not available.
 ##
 #
-song_columns_list_format = (32)[]{t} (24)[]{a} (32)[cyan]{b} (7f)[]{l}
-#
-##### various settings #####
-#
-##
-## Note: Custom command that will be executed each
-## time song changes. Useful for notifications etc.
-##
-## Attention: It doesn't support song format anymore.
-## Use `ncmpcpp --now-playing SONG_FORMAT` instead.
-##
-#execute_on_song_change = ""
-#
-#playlist_show_remaining_time = no
-#
-#playlist_shorten_total_times = no
-#
-#playlist_separate_albums = no
-#
-##
-## Note: Possible display modes: classic, columns.
-##
-#
-#browser_display_mode = classic
-#
-#search_engine_display_mode = classic
-#
-#playlist_editor_display_mode = classic
-#
-#discard_colors_if_item_is_selected = yes
-#
-#incremental_seeking = yes
-#
-#seek_time = 1
-#
-#volume_change_step = 2
-#
-#
-#
-##
-## Note: You can specify third character which will
-## be used to build 'empty' part of progressbar.
-##
-#
+song_columns_list_format = (32)[]{t} (24)[]{a} (32)[]{b} (7f)[]{l}
+
+
+
 ## Available values: database, playlist.
 ##
 #default_place_to_search_in = database
