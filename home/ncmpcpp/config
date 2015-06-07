@@ -22,42 +22,6 @@ statusbar_visibility = no
 progressbar_look = ::.
 progressbar_boldness = yes
 
-##### columns settings #####
-##
-## syntax of song columns list format is "column column etc."
-##
-## - syntax for each column is:
-##
-## (width of column)[column's color]{displayed tag}
-##
-## Note: Width is by default in %, if you want a column to
-## have fixed size, add 'f' after the value, e.g. (10)[white]{a}
-## will be the column that take 10% of screen (so the real column's
-## width will depend on actual screen size), whereas (10f)[white]{a}
-## will take 10 terminal cells, no matter how wide the screen is.
-##
-## - color is optional (if you want the default one, type [])
-##
-## Note: You can give a column additional attributes by putting appropriate
-## character after displayed tag character. Available attributes are:
-##
-## - r - column will be right aligned
-## - E - if tag is empty, empty tag marker won't be displayed
-##
-## You can also:
-##
-## - give a column custom name by putting it after attributes,
-##   separated with character ':', e.g. {lr:Length} gives you
-##   right aligned column of lengths named "Length".
-##
-## - define sequence of tags, that have to be displayed in case
-##   predecessor is empty in a way similar to the one in classic
-##   song format, i.e. using '|' character, e.g. {a|c|p:Owner}
-##   creates column named "Owner" that tries to display artist
-##   tag and then composer and performer if previous ones are
-##   not available.
-##
-#
 song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[]{l}
 
 
