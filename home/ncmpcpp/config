@@ -10,11 +10,14 @@ visualizer_in_stereo =      "yes"
 visualizer_type =           "spectrum" (spectrum/wave)
 visualizer_look =           ":."
 
+playlist_display_mode = columns
 song_list_format = {%t %a %b}
 song_status_format = "%t from %b by %a"
+song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[]{l}
 autocenter_mode = yes
 centered_cursor = no
-playlist_display_mode = columns
+startup_screen = playlist
+ignore_leading_the = yes
 
 header_visibility = no
 song_window_title_format = "%t by %a"
@@ -22,15 +25,7 @@ statusbar_visibility = no
 progressbar_look = ::.
 progressbar_boldness = yes
 
-song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[]{l}
 
-
-
-## Screens available for use: help, playlist, browser, search_engine,
-## media_library, playlist_editor, tag_editor, outputs, visualizer, clock.
-##
-startup_screen = playlist
-ignore_leading_the = yes
 
 #enable_window_title = yes
 #
@@ -48,11 +43,11 @@ ignore_leading_the = yes
 #
 #color2 = green
 #
-#main_window_highlight_color = yellow
+main_window_highlight_color = white
 #
-#progressbar_color = black
+progressbar_color = black
 #
-#progressbar_elapsed_color = green
+progressbar_elapsed_color = white
 #
 #statusbar_color = default
 #
