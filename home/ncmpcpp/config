@@ -21,11 +21,11 @@ ignore_leading_the = yes
 
 header_visibility = no
 song_window_title_format = "%t by %a"
-statusbar_visibility = no
+statusbar_visibility = yes
 progressbar_look = ::.
 progressbar_boldness = yes
 progressbar_color = black
-progressbar_elapsed_color = magenta
+progressbar_elapsed_color = cyan
 
 
 
