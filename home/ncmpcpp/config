@@ -13,7 +13,7 @@ visualizer_look =           ":."
 playlist_display_mode = columns
 song_list_format = {%t %a %b}
 song_status_format = "%t from %b by %a"
-song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[]{l}
+song_columns_list_format = (32)[magenta]{t} (24)[white]{a} (32)[blue]{b} (7f)[cyan]{l}
 autocenter_mode = yes
 centered_cursor = no
 startup_screen = playlist
@@ -24,8 +24,8 @@ song_window_title_format = "%t by %a"
 statusbar_visibility = yes
 progressbar_look = ::.
 progressbar_boldness = yes
-progressbar_color = red
-progressbar_elapsed_color = cyan
+progressbar_color = magenta
+progressbar_elapsed_color = red
 
 
 
