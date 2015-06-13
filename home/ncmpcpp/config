@@ -24,8 +24,8 @@ song_window_title_format = "%t by %a"
 statusbar_visibility = yes
 progressbar_look = ::.
 progressbar_boldness = yes
-progressbar_color = magenta
-progressbar_elapsed_color = red
+progressbar_color = black
+progressbar_elapsed_color = white
 
 
 
