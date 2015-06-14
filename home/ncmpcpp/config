@@ -48,7 +48,7 @@ color2 = blue
 main_window_highlight_color = white
 #
 #
-#statusbar_color = default
+statusbar_color = red
 #
 #alternative_ui_separator_color = black
 #
