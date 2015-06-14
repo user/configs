@@ -54,7 +54,7 @@ statusbar_color = cyan
 #
 #active_column_color = red
 #
-#visualizer_color = yellow
+visualizer_color = red
 #
 #window_border_color = green
 #
