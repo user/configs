@@ -55,8 +55,8 @@ endfunction
 au BufWritePost * if getline(1) =~ "^#!.*/bin/"|silent !chmod u+x %|endif
 
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
 
 " Vundle
 "Bundle 'gmarik/vundle'
