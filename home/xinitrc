@@ -9,7 +9,7 @@ xrdb -load $HOME/.Xresources
 sh $HOME/.fehbg &
 
 # numlock on
-/usr/bin/numlockx &
+#/usr/bin/numlockx &
 
 # hide mouse cursor
 #/usr/bin/unclutter -visible -noevents &
