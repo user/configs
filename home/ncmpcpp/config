@@ -52,7 +52,7 @@ statusbar_color = cyan
 #
 #alternative_ui_separator_color = black
 #
-#active_column_color = red
+active_column_color = white
 #
 visualizer_color = blue
 #
