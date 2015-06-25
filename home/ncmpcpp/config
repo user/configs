@@ -29,8 +29,6 @@ progressbar_elapsed_color = white
 
 
 
-#header_window_color = default
-#
 #volume_color = default
 #
 #state_line_color = default
