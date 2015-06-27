@@ -18,10 +18,6 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 urxvt.foreground:   #f6f6f6
 urxvt.background:   #303030
 
-! red
-!urxvt.color1:       #CC0000
-!urxvt.color9:       #EF2929
-
 ! green
 !urxvt.color2:       #73D216
 !urxvt.color10:      #8AE234
