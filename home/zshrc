@@ -12,8 +12,8 @@ export GREP_COLOR='1;33'
 
 zstyle ':completion:*' _complete _ignored _approximate
 HISTFILE=~/.histfile
-HISTSIZE=10240
-SAVEHIST=10240
+HISTSIZE=1024
+SAVEHIST=1024
 setopt APPEND_HISTORY
 setopt CORRECT
 setopt HIST_IGNORE_ALL_DUPS
