@@ -29,7 +29,7 @@ urxvt.background:   #303030
 *color12: #a396d9
 *color5: #bb65b6
 *color13: #cf96cf
-!*color6: #68a8c5
+*color6: #68a8c5
 !*color14: #9ac1d9
 !*color7: #e3dfed
 !*color15: #f1edfb
