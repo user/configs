@@ -21,7 +21,7 @@ urxvt.background:   #303030
 *color8: #73707e
 *color1: #bb7473
 color9: #cf9fa4
-!*color2: #68b782
+*color2: #68b782
 !*color10: #9acbad
 !*color3: #abb773
 !*color11: #c5cba4
