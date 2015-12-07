@@ -19,7 +19,7 @@ urxvt.foreground:   #f6f6f6
 urxvt.background:   #303030
 
 *color8: #73707e
-!*color1: #bb7473
+*color1: #bb7473
 !*color9: #cf9fa4
 !*color2: #68b782
 !*color10: #9acbad
