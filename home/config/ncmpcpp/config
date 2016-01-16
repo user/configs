@@ -1,0 +1,58 @@
+mpd_host = localhost
+mpd_port = 6600
+
+mpd_music_dir = ~/music
+
+visualizer_fifo_path =      "/tmp/mpd.fifo"
+visualizer_output_name =    "my_fifo"
+visualizer_sync_interval =  "30" 
+visualizer_in_stereo =      "yes"
+visualizer_type =           "spectrum" (spectrum/wave)
+visualizer_look =           ":."
+
+playlist_display_mode = columns
+song_list_format = {%t %a %b}
+song_status_format = "%t from %b by %a"
+song_columns_list_format = (32)[white]{t} (24)[magenta]{a} (32)[blue]{b} (7f)[black]{l}
+autocenter_mode = yes
+centered_cursor = no
+startup_screen = playlist
+ignore_leading_the = yes
+
+header_visibility = no
+song_window_title_format = "%t by %a"
+statusbar_visibility = yes
+progressbar_look = ::.
+progressbar_boldness = yes
+progressbar_color = black
+progressbar_elapsed_color = white
+
+
+
+#volume_color = default
+#
+#state_line_color = default
+#
+#state_flags_color = default
+#
+main_window_color = white
+#
+color1 = white
+#
+color2 = blue
+#
+main_window_highlight_color = white
+#
+#
+statusbar_color = cyan
+#
+#alternative_ui_separator_color = black
+#
+active_column_color = white
+#
+visualizer_color = blue
+#
+#window_border_color = green
+#
+#active_window_border = red
+#
