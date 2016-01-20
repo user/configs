@@ -2,11 +2,11 @@
 #
 
 
-# update x resources db
-xrdb -load $HOME/.Xresources
+# update X resources db
+xrdb -merge $HOME/.Xresources 
 
 # set wallpaper
-sh $HOME/.fehbg &
+hsetroot -fill ~/pics/w/Savannah_Lilian_Blot_by_a_Blot_on_the_landscape.jpg
 
 # numlock on
 #/usr/bin/numlockx &
@@ -15,13 +15,13 @@ sh $HOME/.fehbg &
 #/usr/bin/unclutter -visible -noevents &
 
 # compositing
-/usr/bin/compton &
+#/usr/bin/compton &
 
 # date/time
-/usr/local/bin/dss &
+/usr/bin/dss &
 
-aplay ~/sys/snd/psone.wav &
+#aplay ~/psone.wav &
 
 # start dwm
-exec /usr/local/bin/dwm
+exec /usr/bin/dwm 
 
