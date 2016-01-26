@@ -1,9 +1,10 @@
-! vim:ft=xdefaults
+! vim:ft=xdefaults:
 
-Xcursor.theme:  pixelfun
+Xcursor.theme:  simpleandsoft
 Xft.dpi:        96 
 Xft.antialias:  true 
-Xft.hinting:    true 
+Xft.autohint:   false
+Xft.hinting:    true
 Xft.hintstyle:  hintslight 
 Xft.rgba:       rgb
 Xft.lcdfilter:  lcddefault
@@ -15,21 +16,40 @@ URxvt.geometry: 120x50
 URxvt.font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
 URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 
-urxvt.foreground:   #f6f6f6
-urxvt.background:   #303030
 
-!*color8: #73707e
-!*color1: #bb7473
-!*color9: #cf9fa4
-!*color2: #68b782
-*color10: #9acbad
-*color3: #abb773
-*color11: #c5cba4
-*color4: #7865c5
-*color12: #a396d9
-*color5: #bb65b6
-*color13: #cf96cf
-*color6: #68a8c5
-*color14: #9ac1d9
-*color7: #e3dfed
-*color15: #f1edfb
+! Colors
+*foreground: #d3d0c8
+*background: #2d2d2d
+
+!BLK
+*color0:     #1A1A1A
+*color8:     #686868
+
+!RED
+*color1:     #FE8181
+*color9:     #FB9F9F
+
+!GRN
+*color2:     #35BF5C
+*color10:    #6BD689
+
+!YEL
+*color3:     #FFF373
+*color11:    #FEF3B2
+
+!BLU
+*color4:     #63ACE5
+*color12:    #ADCBE3
+
+!MAG
+*color5:     #AC7BDE
+*color13:    #E5B0FF
+
+!CYN
+*color6:     #5DCCC1
+*color14:    #96EAD7
+
+!WHT
+*color7:     #D6D6D6
+*color15:    #FFFFFF
+
