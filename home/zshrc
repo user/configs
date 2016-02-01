@@ -5,8 +5,8 @@ export LC_TIME="en_DK.UTF-8"
 export LC_ALL=
 
 export EDITOR=vim
-#export LIBVA_DRIVER_NAME=vdpau
-#export VDPAU_DRIVER=r600
+export LIBVA_DRIVER_NAME=vdpau
+export VDPAU_DRIVER=r600
 export GREP_COLOR='1;33'
 
 
