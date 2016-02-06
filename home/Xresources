@@ -29,7 +29,7 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *color1:     #FE8181
 *color9:     #FB9F9F
 
-!GRN
+!green
 *color2:     #35BF5C
 *color10:    #6BD689
 
