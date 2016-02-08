@@ -21,7 +21,7 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *foreground: #d3d0c8
 *background: #2d2d2d
 
-!BLK
+!black
 *color0:     #1A1A1A
 *color8:     #686868
 
