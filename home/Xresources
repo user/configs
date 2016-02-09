@@ -21,15 +21,15 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *foreground: #d3d0c8
 *background: #2d2d2d
 
-!black
+! black
 *color0:     #1A1A1A
 *color8:     #686868
 
-!red
+! red
 *color1:     #FE8181
 *color9:     #FB9F9F
 
-!green
+! green
 *color2:     #35BF5C
 *color10:    #6BD689
 
