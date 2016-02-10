@@ -33,19 +33,19 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *color2:     #35BF5C
 *color10:    #6BD689
 
-!yellow
+! yellow
 *color3:     #FFF373
 *color11:    #FEF3B2
 
-!blue
+! blue
 *color4:     #63ACE5
 *color12:    #ADCBE3
 
-!magenta
+! magenta
 *color5:     #AC7BDE
 *color13:    #E5B0FF
 
-!cyan
+! cyan
 *color6:     #5DCCC1
 *color14:    #96EAD7
 
