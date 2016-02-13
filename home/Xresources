@@ -9,11 +9,11 @@ Xft.hintstyle:  hintslight
 Xft.rgba:       rgb
 Xft.lcdfilter:  lcddefault
 
-! Urxvt
+! urxvt
 URxvt*scrollBar: false
-URxvt.geometry: 120x50
+URxvt.geometry:  120x50
 
-URxvt.font: -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+URxvt.font:     -*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
 URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 
 
