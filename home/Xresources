@@ -42,8 +42,8 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 !*color12:    #ADCBE3
 
 ! MAGENTA
-*color5:     #AC7BDE
-*color13:    #E5B0FF
+!*color5:     #AC7BDE
+!*color13:    #E5B0FF
 
 ! CYAN
 *color6:     #5DCCC1
