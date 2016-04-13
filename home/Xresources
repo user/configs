@@ -46,8 +46,8 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *color13:    #E5B0FF
 
 ! CYAN
-!*color6:     #5DCCC1
-!*color14:    #96EAD7
+*color6:     #5DCCC1
+*color14:    #96EAD7
 
 ! WHITE
 !*color7:     #D6D6D6
