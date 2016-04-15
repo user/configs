@@ -18,8 +18,8 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 
 
 ! COLORS
-*foreground: #d3d0c8
-*background: #2d2d2d
+!*foreground: #d3d0c8
+!*background: #2d2d2d
 
 ! BLACK
 *color0:     #1A1A1A
