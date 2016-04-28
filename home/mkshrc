@@ -1,0 +1,46 @@
+# vim:set ft=sh:
+
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"
+export LANG="en_RU.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+export LC_COLLATE="C"
+export LC_ALL=""
+
+export EDITOR=vim
+export SDL_AUDIODRIVER="alsa"
+export MANWIDTH=110
+
+
+RED=$(tput setaf 1)
+GRN=$(tput setaf 2)
+YLW=$(tput setaf 3)
+BLU=$(tput setaf 4)
+MGT=$(tput setaf 5)
+CYN=$(tput setaf 6)
+GRE=$(tput setaf 7)
+WHT=$(tput setaf 8)
+
+REDBOLD=$(tput setaf 9)
+GRNBOLD=$(tput setaf 10)
+YLWBOLD=$(tput setaf 11)
+BLUBOLD=$(tput setaf 12)
+MGTBOLD=$(tput setaf 13)
+CYNBOLD=$(tput setaf 14)
+WHTBOLD=$(tput setaf 15)
+BLK=$(tput setaf 16)
+
+RESET="$(tput sgr0)"
+
+PS1="${BLU} :${MGT}: ${RESET}"
+PS2="${MGT}  :. ${RESET}"
+
+[[ -f ~/.aliases ]] && . ~/.aliases
+[[ -f ~/.shfunc ]] && . ~/.shfunc
+
+# History file
+HISTFILE="$HOME/.mhistory"
+
+
+bind '^L'=clear-screen
+bind '^[^L'=redraw
+
