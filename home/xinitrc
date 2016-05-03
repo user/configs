@@ -20,7 +20,7 @@ hsetroot -fill ~/pics/w/Savannah_Lilian_Blot_by_a_Blot_on_the_landscape.jpg
 # date/time
 /usr/bin/dss &
 
-#aplay ~/psone.wav &
+aplay ~/psone.wav &
 
 # start dwm
 exec /usr/bin/dwm 
