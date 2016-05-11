@@ -22,8 +22,8 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 *background: #2d2d2d
 
 ! BLACK
-*color0:     #1A1A1A
-*color8:     #686868
+!*color0:     #1A1A1A
+!*color8:     #686868
 
 ! RED
 *color1:     #FE8181
