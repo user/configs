@@ -34,8 +34,8 @@ URxvt.boldFont: -*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 !*color10:    #6BD689
 
 ! YELLOW
-*color3:     #FFF373
-*color11:    #FEF3B2
+!*color3:     #FFF373
+!*color11:    #FEF3B2
 
 ! BLUE
 *color4:     #63ACE5
