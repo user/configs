@@ -14,10 +14,11 @@ mpd_port = 6600
 visualizer_fifo_path      = /tmp/mpd.fifo
 visualizer_output_name    = visualizer
 visualizer_in_stereo      = no
-visualizer_sync_interval  = 16
+#visualizer_sync_interval  = 16
 visualizer_type           = spectrum
 visualizer_look           = ▋▋
-visualizer_color          = 130, 129, 128, 127, 126, 125
+visualizer_color          = 238, 239, 240, 241, 242, 243
+#visualizer_color          = 130, 129, 128, 127, 126, 125
 
 # delays
 #
@@ -39,7 +40,7 @@ song_window_title_format = %t by %a
 
 # columns settings
 #
-song_columns_list_format = (4f)[]{} (30)[blue]{t} (30)[magenta]{a} (30)[cyan]{b} (7f)[red]{l}
+song_columns_list_format = (4f)[]{} (30)[blue]{t} (30)[magenta]{a} (30)[red]{b} (7f)[cyan]{l}
 
 # various settings 
 #
