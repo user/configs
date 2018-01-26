@@ -1,0 +1,25 @@
+export PATH="/bin:/sbin:/usr/bin/:/usr/sbin:/usr/local/bin"
+PS1=' \[\e[1;34m\]\w\[\e[m\]\[\e[0;31m\] #\[\e[0m\] '
+
+alias cp='cp -Riv'
+alias mv='mv -iv'
+alias mkdir='mkdir -pv'
+alias rm='rm -i'
+alias rmrf='rm -rf'
+
+alias ls='ls -h --color=auto --escape --group-directories-first --time-style=long-iso'
+alias lsa='ls -A'
+alias lh='ls -d .*'
+alias ll='ls -l'
+alias lla='ls -lA'
+alias llh='ls -ld .*'
+alias grep='grep --color=auto'
+
+alias b='cd -'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias df='df -h'
+alias du='du -sh'
+
