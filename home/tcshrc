@@ -1,0 +1,59 @@
+setenv PATH /bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+setenv PATH $HOME/.local/bin:$HOME/.local/perl/bin:$PATH
+
+setenv PERL5LIB $home/.local/perl/lib/perl5
+setenv PERL_LOCAL_LIB_ROOT $home/.local/perl
+setenv PERL_MB_OPT "--install_base $home/.local/perl"
+setenv PERL_MM_OPT "INSTALL_BASE=$home/.local/perl"
+setenv PERL_CPANM_HOME $home/.local/cpanm
+
+setenv LANG en_RU.UTF-8
+setenv LC_CTYPE en_US.UTF-8
+setenv LC_COLLATE C
+setenv LC_ALL
+
+setenv MANWIDTH 88
+
+if ($?prompt) then
+
+if ($?SSH_CLIENT) then
+	set prompt = "%{\033[0;35m%} %m%{\033[1;35m%}  %b%%%{\033[0m%} "
+else
+	set prompt = "%{\033[1;35m%}  %b%%%{\033[0m%} "
+endif
+
+set prompt2 = "> "
+set rprompt = "%{\033[38;5;240m%}%~%{\033[0m%} "
+
+#unset addsuffix
+set autoexpand
+set autolist
+set autorehash
+set globstar
+set highlight
+set notify
+set listjobs = long
+set listmax = 256
+set history = 4096
+set histdup = erase
+set histfile = $home/.config/tcsh/history
+set savehist = (2048 merge lock)
+set rmstar
+set wordchars = '*?_[]~=&;!#$%^(){}'
+
+bindkey -e
+bindkey "^W" backward-delete-word
+bindkey "^R" i-search-back
+bindkey "^T" i-search-fwd
+bindkey "^[[Z" complete-word-fwd
+bindkey "^G" complete-word-fwd
+bindkey "^H" complete-word-back
+bindkey "^[[3~" delete-char
+bindkey "^[[2~" overwrite-mode
+bindkey -k up history-search-backward
+bindkey -k down history-search-forward
+
+source $home/.config/tcsh/alias.tcsh
+source $home/.config/tcsh/complete.tcsh
+
+endif
